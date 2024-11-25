@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/Krystian22FrontEnd/movie-browser/static/js/main.a659eda9.js",
+    "static/js/453.21619094.chunk.js": "/Krystian22FrontEnd/movie-browser/static/js/453.21619094.chunk.js",
+    "index.html": "/Krystian22FrontEnd/movie-browser/index.html",
+    "main.a659eda9.js.map": "/Krystian22FrontEnd/movie-browser/static/js/main.a659eda9.js.map",
+    "453.21619094.chunk.js.map": "/Krystian22FrontEnd/movie-browser/static/js/453.21619094.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.a659eda9.js"
+  ]
+}
