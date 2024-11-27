@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/Krystian22FrontEnd/movie-browser/static/js/main.232d160d.js",
+    "main.js": "/Krystian22FrontEnd/movie-browser/static/js/main.af31ee99.js",
     "static/js/453.21619094.chunk.js": "/Krystian22FrontEnd/movie-browser/static/js/453.21619094.chunk.js",
     "static/media/poster3.jpg": "/Krystian22FrontEnd/movie-browser/static/media/poster3.64f2e16ab2f0aba7f0fe.jpg",
     "index.html": "/Krystian22FrontEnd/movie-browser/index.html",
-    "main.232d160d.js.map": "/Krystian22FrontEnd/movie-browser/static/js/main.232d160d.js.map",
+    "main.af31ee99.js.map": "/Krystian22FrontEnd/movie-browser/static/js/main.af31ee99.js.map",
     "453.21619094.chunk.js.map": "/Krystian22FrontEnd/movie-browser/static/js/453.21619094.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.232d160d.js"
+    "static/js/main.af31ee99.js"
   ]
 }
