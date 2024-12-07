@@ -1,7 +1,7 @@
 export const theme = {
   color: {
-    white: "#ffffff",
-    whisper: "#f5f5fa",
+    white: "#FFFFFF",
+    whisper: "#F5F5FA",
     mystic: "#E4E6F0",
     scienceBlue: "#0044cc",
     candleLight: "#FCD420",
