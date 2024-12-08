@@ -7,12 +7,14 @@ export const theme = {
     candleLight: "#FCD420",
     stormGray: "#74788B",
     woodSmoke: "#18181B",
+    waterloo: "#7E839A",
   },
 
   breakpoints: {
     smallMobile : "400px",
     mobile: "560px",
     tabletVertical: "991px",
+    tabletHorizontalS: "1080px",
     tabletHorizontal: "1199px",
   },
 };

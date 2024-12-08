@@ -8,7 +8,6 @@ import {
   MovieDescription,
   Tags,
   Tag,
-  StarIcon,
   Rate,
   RateElement,
   RateVotes,
@@ -19,7 +18,6 @@ import {
   StyledStarIcon,
 } from "./styled";
 import movieDetailsImage from "./movieDetails.jpg";
-import starIcon from "../../icons/star.svg";
 import { ContainerExtra } from "../../common/Container";
 
 export const MovieDetails = () => {
@@ -52,13 +50,13 @@ export const MovieDetails = () => {
             <RateElement>/ 10</RateElement>
             <RateVotes>335 votes</RateVotes>
           </Rate>
+          </Details>
           <MovieDescription>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
             minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.
           </MovieDescription>
-        </Details>
       </StyledMovieDetailsTile>
     </ContainerExtra >
   );
