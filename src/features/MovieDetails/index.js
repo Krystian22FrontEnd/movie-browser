@@ -23,6 +23,7 @@ import { fetchMovies, selectMovies, selectStatus } from "../movieBrowserSlice";
 import { useEffect, useState } from "react";
 import { getMovieOverview } from "../movieDetailsAPI";
 import { CastAndCrew } from "../CastAndCrew";
+import MainHeader from "../../common/MainHeader";
 
 const MovieDetails = () => {
   const dispatch = useDispatch();
@@ -67,6 +68,8 @@ const MovieDetails = () => {
   }, [movieId]);
 
   return (
+    <>
+    <MainHeader/>
     <FlexContainer>
       <StyledMovieDetailsTile>
         <IconContainer>
@@ -110,6 +113,7 @@ const MovieDetails = () => {
       </StyledMovieDetailsTile>
       <CastAndCrew movieId={movieId} />
     </FlexContainer>
+    </>
   );
 };
 

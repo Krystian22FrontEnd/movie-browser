@@ -13,7 +13,6 @@ export const StyledNavLink = styled(NavLink).attrs(() => ({
     color: ${({ theme }) => theme.color.white};
     border: 1px solid ${({ theme }) => theme.color.white};
     text-decoration: none;
-    margin: 0 16px;
     padding: 8px 24px;
     background-color: ${({ theme }) => theme.color.black};
     cursor: pointer;

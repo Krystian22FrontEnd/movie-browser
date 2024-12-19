@@ -12,7 +12,7 @@ import {
 } from "./styled.js";
 import poster3 from "../../image/poster3.jpg";
 
-const Header = ({children}) => {
+const MainHeader = ({children}) => {
   return (
     <StyledHeader>
      <Image src={poster3} alt="" />
@@ -32,4 +32,4 @@ const Header = ({children}) => {
   );
 };
 
-export default Header;
+export default MainHeader;
