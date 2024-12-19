@@ -3,7 +3,7 @@ import { Wrapper, Text, Loader } from "./styled";
 const Loading = () => {
   return (
     <Wrapper>
-      <Text>Search results for "Mulan"</Text>
+      <Text>Search results for popular people</Text>
       <Loader />
     </Wrapper>
   );

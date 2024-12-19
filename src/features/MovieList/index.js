@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import PopularMoviesPoster from "../../image/PopularMoviesPoster.png";
 import {
   StyledMovieDetailsTileList,
   IconContainerList,
