@@ -35,7 +35,7 @@ export const PersonDetails = () => {
       } catch (error) {
         console.error("Error fetching person:", error);
       } finally {
-        setIsLoading(false);
+          setIsLoading(false);
       }
     };
 
@@ -46,13 +46,13 @@ export const PersonDetails = () => {
 
   return (
     <FlexCont>
-      <StyledMovieDetailsTile>
-        {isLoading ? (
-          <div>
-            <Loading />
-          </div>
-        ) : person ? (
-          <>
+      {isLoading ? (
+        <div>
+          <Loading />
+        </div>
+      ) : person ? (
+        <>
+          <StyledMovieDetailsTile>
             <StyledLink to={`/person/${person.id}`}>
               <ImageContainer>
                 <Image
@@ -68,29 +68,25 @@ export const PersonDetails = () => {
                 <Header>{person.name}</Header>
                 <DetailInfo>
                   <DetailInfoElement>
-                    <DetailInfoElementType>
-                      Date of birth:{" "}
-                    </DetailInfoElementType>
+                    <DetailInfoElementType>Date of birth: </DetailInfoElementType>
                     {person.birthday || "Unknown"}
                   </DetailInfoElement>
                   <DetailInfoElement>
                     <DetailInfoElementType>
                       Place of birth:{" "}
                     </DetailInfoElementType>
-                    {person.place_of_birth}
+                    {person.place_of_birth || "Unknown"}
                   </DetailInfoElement>
                 </DetailInfo>
               </Details>
               <MovieDescription>{person.biography}</MovieDescription>
             </StyledLink>
-          </>
-        ) : (
-          <>
-            <NotFound />
-          </>
-        )}
-      </StyledMovieDetailsTile>
-      <MoviesCastAndCrew personId={id} />
+          </StyledMovieDetailsTile>
+          <MoviesCastAndCrew personId={id} />
+        </>
+      ) : (
+        <NotFound />
+      )}
     </FlexCont>
   );
 };

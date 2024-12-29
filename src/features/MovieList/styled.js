@@ -8,12 +8,12 @@ export const FlexCont = styled.div`
   flex-direction: column;
   margin: 0 auto;
 
-  @media (max-width: ${({theme}) => theme.breakpoints.nextHubMax}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.nextHubMax}) {
     margin-left: 36px;
     margin-right: 36px;
   }
 
-  @media (max-width: ${({theme}) => theme.breakpoints.mobile}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
     margin-left: 16px;
     margin-right: 16px;
   }
@@ -60,7 +60,7 @@ export const IconContainerList = styled.div`
 
 export const ImageList = styled.img`
   border-radius: 5px;
-  padding-bottom: 16px;
+  height: 66%;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
     width: 114px;
@@ -80,6 +80,7 @@ export const HeaderList = styled.header`
   font-size: 22px;
   line-height: 28.6px;
   font-weight: 500;
+  padding-top: 16px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
     font-size: 16px;
