@@ -31,11 +31,14 @@ export const Pagination = (isMoviesPage) => {
   const { totalPagesActor } = usePopularActors();
 
   const generateURL = useCallback(
+        
     (page, query) => {
-      const queryParam = query ? `&query=${query}` : "";
-      return `${location.pathname}?page=${page}${queryParam}`;
-    },
+          const queryParam = query ? `&query=${query}` : "";
+          return `${location.pathname}?page=${page}${queryParam}`;
+        },
+       
     [location.pathname]
+    
   );
 
   const totalPages = query
@@ -92,18 +95,30 @@ export const Pagination = (isMoviesPage) => {
     <Wrapper>
       <ButtonsContainer>
         {renderButton(
+                    
           () => changePage(1),
+                   
           currentPage === 1,
+                   
           <PointerLeft />,
+                   
           <PointerLeft />,
+                   
           "First"
+                
         )}
         {renderButton(
+                    
           () => changePage(currentPage - 1),
+                   
           currentPage === 1,
+                   
           <PointerLeft />,
+                   
           null,
+                   
           "Previous"
+                
         )}
       </ButtonsContainer>
       <Counter>
@@ -114,20 +129,33 @@ export const Pagination = (isMoviesPage) => {
       </Counter>
       <ButtonsContainer>
         {renderButton(
+                    
           () => changePage(currentPage + 1),
+                   
           currentPage === totalPages,
+                   
           null,
+                   
           <PointerRight />,
+                   
           "Next"
+                
         )}
         {renderButton(
+                    
           () => changePage(totalPages),
+                   
           currentPage === totalPages,
+                   
           <PointerRight />,
+                   
           <PointerRight />,
+                   
           "Last"
+                
         )}
       </ButtonsContainer>
     </Wrapper>
   );
 };
+
