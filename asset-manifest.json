@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/movie-browser/static/js/main.d3853d2d.js",
+    "main.js": "/movie-browser/static/js/main.a647224b.js",
     "static/js/453.21619094.chunk.js": "/movie-browser/static/js/453.21619094.chunk.js",
     "static/media/personDetails.png": "/movie-browser/static/media/personDetails.aaad7b0b3c15558f6dbe.png",
     "static/media/poster3.jpg": "/movie-browser/static/media/poster3.64f2e16ab2f0aba7f0fe.jpg",
@@ -11,10 +11,10 @@
     "static/media/Video.svg": "/movie-browser/static/media/Video.64519bacc48e8f0f2a39675e55643d9b.svg",
     "static/media/Search.svg": "/movie-browser/static/media/Search.67b8139a58176c2c50a2b1297a869e2b.svg",
     "static/media/icon-spinner.svg": "/movie-browser/static/media/icon-spinner.c5f29646f52eed97faa98a9f6f43ce08.svg",
-    "main.d3853d2d.js.map": "/movie-browser/static/js/main.d3853d2d.js.map",
+    "main.a647224b.js.map": "/movie-browser/static/js/main.a647224b.js.map",
     "453.21619094.chunk.js.map": "/movie-browser/static/js/453.21619094.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.d3853d2d.js"
+    "static/js/main.a647224b.js"
   ]
 }
